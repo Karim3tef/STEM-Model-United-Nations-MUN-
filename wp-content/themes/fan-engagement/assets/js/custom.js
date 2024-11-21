@@ -544,7 +544,7 @@ $(document).ready(function() {
 
                 }
             },
-            licenseKey: 'B97CB530-41974E0A-8D077045-30A618F4',
+            // licenseKey: 'B97CB530-41974E0A-8D077045-30A618F4',
             afterLoad: function(anchorLink, index) {
                 history.pushState(null, null, " ");
             },
@@ -559,7 +559,7 @@ $(document).ready(function() {
             slidesNavigation: false,
             autoScrolling: true,
             scrollHorizontally: true,
-            scrollHorizontallyKey: 'dGhlZmFuZW5nYWdlbWVudC5jb21fMHpHYzJOeWIyeHNTRzl5YVhwdmJuUmhiR3g1ZGR2',
+            // scrollHorizontallyKey: 'dGhlZmFuZW5nYWdlbWVudC5jb21fMHpHYzJOeWIyeHNTRzl5YVhwdmJuUmhiR3g1ZGR2',
             onSlideLeave: function(section, origin, destination, direction) {
 
                 var slideID = destination.item.id;
